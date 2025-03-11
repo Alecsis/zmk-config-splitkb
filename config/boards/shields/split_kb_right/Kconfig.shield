@@ -1,0 +1,4 @@
+config ZMK_SHIELD_SPLIT_KB_RIGHT
+    bool "Split KB Right"
+    select ZMK_SPLIT
+    select BOARD_NICE_NANO_V2
