@@ -1,4 +1,2 @@
-config ZMK_SHIELD_SPLIT_KB_RIGHT
-    bool "Split KB Right"
-    select ZMK_SPLIT
-    select BOARD_NICE_NANO_V2
+config SHIELD_SPLIT_KB_RIGHT
+     def_bool $(shields_list_contains,split_kb_right)
