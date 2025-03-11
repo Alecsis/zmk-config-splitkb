@@ -1,5 +1,4 @@
 build:
   settings:
-    name: zmk-keyboard-splitkv
     board_root: .
 
