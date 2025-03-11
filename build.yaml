@@ -20,7 +20,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: split_left
+    shield: splitkv_left
   - board: nice_nano_v2
-    shield: split_right
+    shield: splitkv_right
 #hello>
